@@ -1,0 +1,10 @@
+rainy = input("How's the weather? Is it raining? (y/n)").lower()
+cold = input("Is it cold outside? (y/n)").lower()
+if(rainy == 'y' and cold == 'y'):
+    print("Wear a raincoat, or else you will get wet.")
+elif(rainy == 'y' and cold != 'y'):
+    print("Get an umbrella right now!")
+elif(rainy != 'y' and cold == 'y'):
+    print("Put a jacket on, its cold outside!")
+elif(rainy != 'y' and cold != 'y'):
+    print("Wear whatever you want, its sunny and warm outside!")
