@@ -1,0 +1,6 @@
+def onlySixths(parameter1):
+    list1 = []
+    for x in parameter1:
+        if x%6 == 0:
+            list1.append(x)
+    return list1
