@@ -1,0 +1,7 @@
+num = int(input("Enter a number of rows:"))
+for x in range(num,0,-1):
+    for y in range(0,num-x):
+        print(end="")
+    for y in range(0,x):
+        print("*",end="")
+    print()
