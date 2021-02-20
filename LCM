@@ -1,0 +1,18 @@
+def LCM(one, two):
+    if one > two:
+        larger = one
+    else:
+        larger = two
+        
+    while(True):
+        if((larger % one == 0) and (larger % two == 0)):
+            lcm = larger
+            break
+            larger += 1
+            
+        return lcm
+    
+num = 54
+num2 = 54
+
+print("The lcm is ", LCM(num, num2))
