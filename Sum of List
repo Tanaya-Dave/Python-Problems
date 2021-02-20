@@ -1,0 +1,6 @@
+list1 = []
+elem = int(input("Enter number of numbers: "))
+for y in range(elem):
+    lists = int(input("Enter one number: "))
+    list1.append(lists)
+print("Sum is: ", sum(list1))
