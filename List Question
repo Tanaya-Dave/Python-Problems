@@ -1,0 +1,19 @@
+# For given string [a,a, a, b, b, c, d, a, b] find the highest repitition
+list_1 = ['a','b','b','b','b','c','d','c','b']
+lastchar = list_1[0]
+count =0
+highcount= 0
+for num in list_1:
+        print(num)
+        if num == lastchar:
+            count = count +1
+        else:
+            if count > highcount:
+                highcount = count
+                print(highcount)
+                count = 1
+        lastchar = num
+        print("lastchar: " + lastchar +",")
+        print (count)
+        print(highcount)
+       
