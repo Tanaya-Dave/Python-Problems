@@ -1,0 +1,15 @@
+def consecutive_combo(integer, integer2):
+    combos1 = integer+integer2
+    combos1 = sorted(combos1)
+    print(combos1)
+    start = 0
+    result = True
+    for x in range(combos1[0],combos1[-1]+1):
+        print(x)
+        if x == combos1[start]:
+            result = True
+        else:
+            result = False
+            return False
+        start = start + 1
+    return result
