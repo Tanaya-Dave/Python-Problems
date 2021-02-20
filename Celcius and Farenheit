@@ -1,0 +1,10 @@
+def convert(doc):
+    list1 = doc.split('*')
+    if 'F' == list1[1]:
+        part = int(list1[0]) - 32
+        return str(part*(5/9)) + 'C' 
+    if 'C' == list1[1]:
+        part1 = int(list1[0])
+        return str((part1 * (9/5)) + 32) + 'F'
+    else:
+        return 'Error'
