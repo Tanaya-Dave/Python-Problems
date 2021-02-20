@@ -1,0 +1,20 @@
+Player1 = input("Player 1, enter r,s, or p? ")
+Player2 = input("Player 2, enter r,s, or p? ")
+if Player1 == 'r':
+    if Player2 == 's':
+        print('Player 1 wins')
+if Player1 == 'p':
+    if Player2 == 's':
+        print('Player 2 wins')
+if Player1 == 's':
+    if Player2 == 'r':
+        print('Player 2 wins')
+if Player1 == 's':
+    if Player2 == 'p':
+        print('Player 1 wins')
+if Player1 == 'r':
+    if Player2 == 'p':
+        print('Player 2 wins')
+if Player1 == 'p':
+    if Player2 == 'r':
+        print('Player 1 wins')
