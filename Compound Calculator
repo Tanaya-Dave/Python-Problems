@@ -1,0 +1,4 @@
+def compound_calculator(principle, years, rate, period):
+    part1 = ((1 + rate/period)**(period*years))
+    total = (principle*part1)
+    return total
