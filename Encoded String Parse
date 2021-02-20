@@ -1,0 +1,8 @@
+def parse_code(text):
+    x = text.split("0")
+    while("" in x):
+        x.remove("")
+    list = []
+    list.append("first_name:", x[0])
+    list.append("last_name:", x[1])
+    list.append("id:", x[3])
