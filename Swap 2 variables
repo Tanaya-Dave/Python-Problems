@@ -1,0 +1,4 @@
+first = input("Enter a variable: ")
+second = input("Enter a second variable: ")
+print('first: ', second)
+print('second: ', first)
