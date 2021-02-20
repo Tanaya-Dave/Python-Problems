@@ -1,0 +1,28 @@
+#Create a function - check
+#Input list of 3 numbers
+#Output is increasing, decreasing, neither
+#Check if it is decreasing or increasing by 1
+def check(list):
+    last = 0
+    indication ="Default"
+    for nums in list:
+        if nums > last:
+            if (indication == "Default"):
+                if (last != 0):
+                    indication = "Increasing"
+            if (indication == "Decreasing"):
+                return "Niether"
+                
+            last = nums
+        if nums < last:
+             if (indication == "Default"):
+                indication = "Decreasing"
+             
+             if(indication == "Increasing"):
+                return "niether"
+             else: 
+                indication = "Decreasing"
+             
+             last = nums 
+             # print("Decreasing")
+    return indication
