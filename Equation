@@ -1,0 +1,18 @@
+def equation():
+    first = eval(input("Enter First number: "))
+    symbol = input("Enter symbol for equation: ")
+    second = eval(input("Enter Second number: "))
+# if symbol is equal to + then add it to the first and second number and print the answer else check the - and
+# subtract with the first and second number 
+    if (symbol == '+'):
+        print(first + second)
+    elif (symbol == '-'):
+            print(first - second)
+   
+    elif symbol == 'X':
+            print(first * second)
+    
+    elif(symbol == '/'):
+            print(first / second)
+            
+equation()        
