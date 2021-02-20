@@ -1,0 +1,4 @@
+def x(money, years, rate):
+    y = (money * rate)
+    yx = (y * years)
+    return yx
