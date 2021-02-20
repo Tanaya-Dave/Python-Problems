@@ -1,0 +1,5 @@
+def even_odd_transformation(num, num2, num3):
+    if num,num2,num3 %2 == 0:
+        return (num,num2,num3)+2
+    else:
+        return (num,num2,num3)-2
