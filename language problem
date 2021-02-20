@@ -1,0 +1,10 @@
+language = input("Enter a language: "):
+
+if language == 'Python':
+    print('Language is Python')
+elif language == 'Java':
+    print('Language is Java')
+elif language == 'C++':
+    print('Language is C++')
+else:
+    print('No match')
