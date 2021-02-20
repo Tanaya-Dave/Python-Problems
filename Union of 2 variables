@@ -1,0 +1,8 @@
+def union(parameter,parameter2):
+    list2 = []
+    for y in parameter and parameter2:  
+        parameter.sort()
+        parameter2.sort()
+        list2.append(parameter)
+        list2.append(parameter2)
+    return list2
